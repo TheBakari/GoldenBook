@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Golden Book</title>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <div class="formAddBookContainer">
+      <div class="formAddBook">
+        <form action="" class="firstForm">
+          <div class="headerH3">
+            <h3>Add Book</h3>
+            <hr class="hrColor" />
+          </div>
+
+          <div class="inputContainer">
+            <label for="">Image URL</label>
+            <input type="text" id="imgUrlInput" />
+            <p id="imgUrlTextError" class="errorTextField"></p>
+          </div>
+
+          <div class="inputContainer">
+            <label for="">Title</label>
+            <input type="text" id="titleInput" />
+            <p id="titleTextError" class="errorTextField"></p>
+          </div>
+
+          <div class="inputContainer">
+            <label for="">Author</label>
+            <select name="authorInput" id="authorInput" class="selectPart">
+              <option value="">Select Author</option>
+            </select>
+            <p id="authorTextError" class="errorTextField"></p>
+          </div>
+
+          <div class="inputContainer">
+            <label for="">Categories</label>
+            <select name="catInput" id="catInput" class="selectPart">
+              <option value="">Select Category</option>
+            </select>
+            <p id="categoriesTextError" class="errorTextField"></p>
+          </div>
+
+          <div class="inputContainer">
+            <label for="">Year</label>
+            <select name="dateInput" id="dateInput" class="selectPart">
+              <option value="">Select Year</option>
+            </select>
+            <p id="yearTextErorr" class="errorTextField"></p>
+          </div>
+
+          <div class="inputContainer">
+            <label for="">ISBN</label>
+            <input type="text" id="isbnInput" />
+            <p id="isbnTextError" class="errorTextField"></p>
+          </div>
+
+          <div class="textAreaContainer">
+            <label for="">Description</label>
+            <textarea
+              name="descInput"
+              id="descInput"
+              cols="80"
+              rows="10"
+              placeholder="Author Name"
+            ></textarea>
+            <p id="decTextError" class="errorTextField"></p>
+          </div>
+
+          <button id="submitHtml" type="submit">Save</button>
+        </form>
+        <div id="spinner">
+          <img
+            id="spinnerImg"
+            src="https://knock.turdesigner.com/content/images/loading.gif"
+            alt="spinner"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="js/addBook.js" type="module"></script>
+  </body>
+</html>

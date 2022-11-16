@@ -1,0 +1,439 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #160f09;
+}
+
+#transparentBackGround {
+  /* background: rgb(22, 15, 9); */
+
+  background: url("/GoldenBook/img/golden-book-image.png"),
+    linear-gradient(90deg, rgba(22, 15, 9, 1) 45%, rgba(128, 123, 111, 1) 100%);
+  margin: 60px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-size: 50%, cover;
+  background-repeat: no-repeat;
+}
+.headerPart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px 20px 0 0;
+}
+
+.naslov h1 {
+  color: #f2efdc;
+  padding: 10px 0 0 30px;
+  font-weight: 700;
+  font-size: 64px;
+  letter-spacing: 3px;
+}
+.listaInfo {
+  display: inline;
+  margin-top: 10px;
+}
+#ulTopNav {
+  margin-top: 25px;
+}
+#ulTopNav li {
+  display: inline;
+  text-decoration: none;
+}
+.firstButton {
+  color: #d8d4c3;
+  margin-right: 15px;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  padding: 10px 15px;
+}
+.firstButton:hover {
+  background-color: #f2efdc;
+  color: #7b7a70;
+  padding: 10px 15px;
+  border-radius: 5px;
+  letter-spacing: 0.1em;
+}
+.secondButton {
+  background-color: #f2efdc;
+  color: #7b7a70;
+  margin-right: 30px;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+/* main part */
+#mainPart {
+  display: flex;
+  justify-content: end;
+  margin-top: 50px;
+}
+.mainPartText {
+  color: #d1cebd;
+  width: 40%;
+}
+.mainPartText .textInMainPart {
+  margin-left: 200px;
+  direction: rtl;
+  margin-right: 20px;
+}
+#findInspDiv {
+  margin-left: 200px;
+}
+#findInsp {
+  margin-top: 50px;
+  font-size: 48px;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  font-style: normal;
+}
+.buttonSign {
+  margin: 60px 0;
+}
+.buttonSignUp {
+  background-color: #f2efdc;
+  color: #616058;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  padding: 20px 150px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 150px 0 0 260px;
+  font-size: 24px;
+}
+.footerDiv {
+  display: flex;
+  justify-content: end;
+
+  color: #f2efdc;
+  margin: 450px 10px 15px 0;
+}
+
+/* SIGN UP PAGE */
+
+.rightSide {
+  float: right;
+}
+
+#form {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightSide h2 {
+  margin-left: 36%;
+  margin-bottom: 5%;
+  font-size: 40px;
+}
+.inputClassForAll {
+  width: 250px;
+  padding: 15px 5px;
+  text-decoration: none;
+  border-radius: 4px 4px 0px 0px;
+  background-color: #f2efdc;
+  color: #616058;
+}
+
+.textInputa {
+  margin-top: 0;
+}
+.textInputaDva {
+  margin-bottom: 5px;
+}
+.dugneSignUp {
+  cursor: pointer;
+  width: 250px;
+  margin-left: 45px;
+  background-color: #f2efdc;
+  color: #393934;
+}
+button {
+  background-color: #160f09;
+  color: #f2efdc;
+  border: none;
+  padding: 15px 0;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-top: 50px;
+  margin-right: 40px;
+  float: right;
+  width: 61.5%;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #1f1f1c;
+  color: white;
+}
+.paragraph {
+  color: #f2efdc;
+  float: right;
+  margin-right: 20px;
+  font-weight: 400;
+  font-size: small;
+  letter-spacing: 0.1em;
+  margin-top: 5px;
+}
+.paragraphTexta {
+  color: #f2efdc;
+  float: right;
+  font-weight: 400;
+  font-size: small;
+  letter-spacing: 0.1em;
+  margin-top: 5px;
+}
+
+h2 {
+  margin-left: 245px;
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+a {
+  color: #f2efdc;
+}
+a :visited {
+  color: #f2efdc;
+}
+
+/* Login page */
+
+.signUpButton {
+  background-color: #f2efdc;
+  color: #1f1f1c;
+}
+
+/* HOMEPAGE CSS */
+#transparentBackGroundHomePage {
+  background: rgb(22, 15, 9);
+  background: linear-gradient(
+    0deg,
+    rgba(22, 15, 9, 1) 38%,
+    rgba(29, 22, 17, 1) 83%,
+    rgba(65, 59, 51, 1) 87%,
+    rgba(128, 123, 111, 1) 100%
+  );
+}
+.loginIcon i {
+  color: #f2efdc;
+  margin: 20px 50px 0 0;
+}
+.twoMainDivs {
+  display: flex;
+  justify-content: space-between;
+}
+.naslovHomePage h1 {
+  color: #f2efdc;
+  padding: 10px 0 0 30px;
+  font-weight: 800;
+}
+
+.menuLeftSide {
+  color: #d3cfbe;
+  margin: 80px 0 0 0;
+  border-right: 1px solid white;
+  width: 20%;
+  background: rgba(0, 0, 0, 0.2);
+  padding-right: 20px;
+}
+
+.menuLeftSide ul {
+  list-style: none;
+}
+.menuLeftSide li a {
+  display: block;
+  padding: 20px 30px;
+  text-decoration: none;
+}
+
+.menuLeftSide ul :hover {
+  background-color: #4c463d;
+}
+.menuLeftSide li a i {
+  margin-right: 8px;
+}
+
+.menuRightSide {
+  margin-top: 80px;
+  width: 75%;
+}
+
+.headerText {
+  color: #f2efdc;
+  font-size: 25px;
+}
+
+.inputHomePage {
+  width: 46.2%;
+  padding: 15px 7px;
+  margin-top: 25px;
+  border-radius: 5px;
+  background-color: #f2efdc;
+}
+.topInput {
+  margin-right: 30px;
+}
+
+.contentHomePage {
+  color: white;
+  margin-right: 73px;
+  margin-top: 50px;
+}
+
+.contentTopPage {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contentDiv {
+  background-color: #f2efdc;
+  padding: 20px 30px;
+  border-radius: 5px;
+}
+.insideContent {
+  float: left;
+}
+.insideContent h3 {
+  color: #403930;
+  margin-bottom: 10px;
+}
+.insideContent img {
+  width: 200px;
+}
+.insideContentText {
+  color: #403930;
+  float: left;
+  width: 150px;
+  margin-top: 30px;
+  padding-left: 15px;
+}
+
+.linkInContent {
+  background-color: #837e72;
+}
+
+.nameContent {
+  margin-bottom: 10px;
+  font-size: small;
+}
+.categoryContent {
+  margin-bottom: 10px;
+  font-size: small;
+}
+
+.textContent {
+  margin-bottom: 20px;
+}
+
+.linkInContent {
+  padding: 10px;
+  font-size: small;
+  border-radius: 5px;
+}
+
+.linkInContent a {
+  text-decoration: none;
+  margin-left: 8px;
+}
+.linkInContent:hover {
+  background-color: #1f1f1c;
+}
+
+.contentBottomPage {
+  margin-top: 50px;
+}
+.strelica {
+  margin-left: 49%;
+}
+.strelicaDva {
+  margin-left: 65%;
+}
+/* FOOTER */
+
+.footerHomePage {
+  color: #f2efdc;
+  text-align: center;
+  margin: 50px 0 0 0px;
+  background: rgb(65, 59, 51);
+  background: linear-gradient(
+    0deg,
+    rgba(22, 15, 9, 1) 4%,
+    rgba(29, 22, 17, 1) 14%
+  );
+  padding: 20px 0;
+}
+
+/* form for add book */
+
+.formAddBookContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formAddBook {
+  width: 50%;
+  background-color: #f2efdc;
+  border-radius: 10px;
+  padding: 20px 40px;
+}
+
+.firstForm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.inputContainer {
+  width: 50%;
+}
+
+.textAreaContainer > textarea {
+  width: 100%;
+  padding: 10px;
+}
+
+.firstForm input {
+  display: block;
+  width: 80%;
+  background-color: #f2efdc;
+  border: none;
+  border-bottom: 1px solid #b9b6a3;
+}
+
+.firstForm select {
+  display: block;
+  background-color: #f2efdc;
+  border: none;
+  border-bottom: 1px solid #b9b6a3;
+}
+label {
+  color: #b9b6a3;
+}
+.selectPart {
+  width: 80%;
+}
+.headerH3 {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.errorTextField {
+  color: red;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+#spinnerImg {
+  display: none;
+  width: 200px;
+}

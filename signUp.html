@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- to Explore why script tag should be in head   <script src="js/signUp.js"></script>-->
+    <title>Golden Book</title>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <div id="backGround">
+      <div id="transparentBackGround" class="imgBook">
+        <div class="imgBook">
+          <div class="headerPart">
+            <div class="naslov">
+              <h1>Golden Book.</h1>
+            </div>
+          </div>
+          <div id="mainPart">
+            <div class="mainPartText">
+              <div class="rightSide">
+                <h2>Sign Up</h2>
+                <form action="" id="form">
+                  <div>
+                    <input
+                      type="text"
+                      placeholder="Email"
+                      id="email"
+                      class="textInputa inputClassForAll"
+                    />
+                    <p id="emailTextError" class="errorTextField"></p>
+                  </div>
+                  <div>
+                    <input
+                      type="text"
+                      placeholder="Password"
+                      id="pass"
+                      class="textInputaDva inputClassForAll"
+                    />
+                    <p id="passTextError" class="errorTextField"></p>
+                  </div>
+
+                  <p class="paragraphTexta">
+                    Already have an account? <a href="login.html">Log in</a>
+                  </p>
+                  <div>
+                    <button class="dugneSignUp" id="signBtn">Sign Up</button>
+                  </div>
+                  <div id="spinner">
+                    <img
+                      id="spinnerImg"
+                      src="https://knock.turdesigner.com/content/images/loading.gif"
+                      alt="spinner"
+                    />
+                    <p id="successMessage"></p>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <footer class="footerDiv">
+            <p class="paragraph">ANGULAR WORKSHOP 2022</p>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/logInsignUp.js" type="module"></script>
+  </body>
+</html>
